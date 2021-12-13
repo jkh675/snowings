@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+}
+
+#header{
+    background: linear-gradient(10deg, rgb(131, 125, 248) 26%, rgba(0,212,255,1) 82%, rgba(255,255,255,1) 100%);
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
+#header_text {
+    text-align: center;
+    position: relative;
+}
+#header_text h1{
+    filter:drop-shadow(0px 0px 10px rgb(0,0,0));
+    font-family: 'Righteous', cursive;
+    position: relative;
+    color:rgba(0, 0, 0,0);
+}
+#company_name{
+    letter-spacing: 40px;
+}
+#header_svg_notblur{
+    filter:drop-shadow(0px 0px 10px #000);
+    height: 500px;
+}
+
+#top_nav{
+    filter:drop-shadow(0px 0px 10px 10px rgb(255, 255, 255));
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#top_nav_left{
+    margin-bottom: 50px;
+    width: auto;
+    display: flex;
+    float: left;
+    justify-content: start;
+}
+#top_nav_right{
+    display: flex;
+    justify-content: end;
+}
+
+.nav_item{
+    background-color: rgb(250, 250, 250);
+    color:rgb(138,106,208);
+    margin: 0;
+    font-family: 'Righteous', cursive;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size:25px;
+    border: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition-duration: 200ms;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 5px rgb(219, 206, 248) , 0px 0px 1px 1px rgb(0, 0, 0);
+    z-index: 100;
+}
+.nav_item:hover{
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px rgb(137, 106, 208);
+    transform: scale(1.2) translateY(10px);
+    z-index: 1000000;
+}
+#nav_logo{
+    color:rgb(252, 252, 252);
+    margin: 0;
+    font-family: 'Righteous', cursive;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size:35px;
+    border: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition-duration: 200ms;
+    border-radius: 10px;
+    text-shadow: 0px 0px 10px rgb(138,106,208);
+}
+
+#down_about {
+    display: flex;
+    width: 100%;
+    margin-top: -50px;
+    background-color:rgb(130, 174, 224);
+}
+
+#down_about img{
+    width: 800px;
+    border-right: 5px solid black;
+}
+
+#down_about_text{
+    word-break: break-word;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+#title_about{
+    font-family: 'Righteous', cursive;
+    background-color: rgb(155, 191, 233);
+    border-radius: 20px;
+    border-right: 5px solid rgb(42, 42, 54);
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#down_fleet {
+    border-top: 5px solid rgb(42, 42, 54);
+    display: flex;
+    width: 100%;
+    margin-top: -50px;
+    background-color:rgb(130, 174, 224);
+}
+
+#down_fleet img{
+    width: 800px;
+    float: right;
+    border-right: 5px solid black;
+}
+
+#down_fleet_text{
+    word-break: break-word;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+#title_fleet{
+    padding-right: 50px;
+    font-family: 'Righteous', cursive;
+    background-color: rgb(155, 191, 233);
+    border-radius: 20px;
+    border-right: 5px solid rgb(42, 42, 54);
+}
+#down_fleet li{
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
